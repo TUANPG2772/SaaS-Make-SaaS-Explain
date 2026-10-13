@@ -28,3 +28,12 @@ These are partial task implementations, not a claim that E15 or the full SaaS is
 - Real previous-scene frames are not available yet. Example IDs do not resolve to actual assets.
 - Local validation does not substitute for authenticated tenant checks, real asset inspection or provider capability checks.
 - No deployment, provider charges or paid subscriptions authorized by this commit.
+
+## Browser prototype (0.2)
+- Added static end-card editor: live brand/CTA/colors, local image-logo preview,
+  replay/scrubbing, prompt copy and scene JSON download.
+- Extracted shared validated compiler content; Node SHA256 wrapper unchanged.
+- `npm run build:preview` and all 12 existing tests pass.
+- Browser interaction QA unavailable in this environment; deployment is verified
+  separately. Uploaded logo bytes are not exported. Synthetic background and
+  system font are approximations, not a faithful reconstruction of source footage.

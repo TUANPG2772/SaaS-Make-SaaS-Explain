@@ -47,3 +47,12 @@ Reference-video analysis, upload/storage, actual rendering, web UI, auth/databas
 ## Security and billing
 
 Never commit API keys, tokens, customer videos or payment data. Asset ownership checks here are local consistency checks; server-side authorization and tenant isolation still need implementation. User-provided prompt text must remain untrusted data. No paid API calls or live billing have been enabled.
+
+### Browser prototype
+
+`npm run build:preview` builds a dependency-free static scene editor in `dist/`.
+Open via a static host. Edit brand colors, wordmark and CTA, preview the 66-frame
+end-card timeline, and download the compiled scene JSON. Uses the same validated
+compiler content as the Node package. Uploaded logos stay in browser memory and
+are not embedded in exports. This is a synthetic canvas preview, not source-video
+analysis or an MP4 renderer. No API calls, database, authentication or billing.
