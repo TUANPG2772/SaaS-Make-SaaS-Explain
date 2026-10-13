@@ -214,7 +214,7 @@ Definition of done: đầu ra được review, đáp ứng tiêu chí hàng tư�
 
 | ID | Task | Đầu ra cụ thể | Tiêu chí hoàn tất | Quy mô |
 |---|---|---|---|---|
-| E03-01 | Tạo repo riêng tư | Tên dự kiến saas-video-studio; README và docs | Có URL thật, owner đúng, không chứa key | S |
+| E03-01 | DONE — Lưu dự án vào repo đã được cung cấp | TUANPG2772/SaaS-Make-SaaS-Explain (public); README và docs | Có URL thật, owner đúng, không chứa key | S |
 | E03-02 | Quy ước phát triển | Branch, PR template, issue template, definition of done | Task ID gắn được với PR và release | S |
 | E03-03 | Scaffold web và worker | Monorepo web, worker, shared schemas, renderer | Web và worker khởi động riêng với health check | M |
 | E03-04 | Chất lượng mã | Typecheck, lint, format và test framework | CI chặn build khi lỗi type hoặc kiểm thử quan trọng | S |
